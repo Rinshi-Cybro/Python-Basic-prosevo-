@@ -7,8 +7,8 @@
 # 3. Alphanumeric ( A-Z, a-z, 0-9, _ )
 # 4. Case sensitive (name NAME, Name)
 
-# Data types 
-# 1. integer
+# Data types (int, string, float, complex, boolean, Data collection(list, tuple, set, dict))
+# 1. Integer
 b = 10
 
 # 2. string
@@ -365,40 +365,6 @@ x **= 3
 
 #<-==========================================================================================================================================->
 
-# Python Collections (Arrays)
-# a)List  b)Tuple  c)Set  d)Dictionary 
-
-# a) Python Lists
-# Lists are used to store multiple items in a single variable.
-# Lists are one of 4 built-in data types in Python used to store collections of data
-# List items are ordered, changeable, and allow duplicate values.
-mylist = ["apple", "banana", "cherry"]
-print(mylist)
-# List Allow Duplicate value
-thislist = ["apple", "banana", "cherry", "apple", "cherry"]
-print(thislist) 
-# List Length
-thislist = ["apple", "banana", "cherry"]
-print(len(thislist))
-# List Data type
-list1 = ["apple", "banana", "cherry"]
-list2 = [1, 5, 7, 9, 3]
-list3 = [True, False, False]
-
-# Using the list() constructor to make a List
-thislist = list(("apple", "banana", "cherry"))
-print(thislist)
-
-# 1: Removing duplicates from a list
-my_list = [1, 2, 2, 3, 4, 4, 5]
-unique_list = list(set(my_list))
-print(unique_list)                  # Output: [1, 2, 3, 4, 5]
-
-# 2: Finding the intersection of two lists
-list1 = [1, 2, 3, 4]
-list2 = [3, 4, 5, 6]
-intersection = list(set(list1) & set(list2))
-print(intersection)  # Output: [3, 4]
 
 
 
